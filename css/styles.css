@@ -3,3 +3,13 @@ h1 {
   font-family: sans-serif;
   color: blue;
 }
+.container {
+ font-weight: bolder;
+}
+.img {
+  border: 4px red;
+  padding: 4px
+  margin: 6px;
+  background-color: green;
+  float: left;
+}
