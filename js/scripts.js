@@ -44,7 +44,7 @@ var range;
   document.getElementById("after_submit").style.visibility = "visible";
 
   document.getElementById("message").innerHTML =messages[range];
-  document.getElementById("number_correct").innerHTML ="You managed to score :" +  correct + " !";
+  document.getElementById("number_correct").innerHTML ="You managed to score : " +  correct + " !";
   document.getElementById("picture").src = pictures[range];
 
 }
