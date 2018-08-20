@@ -2,14 +2,32 @@ h1 {
   text-align: center;
   font-family: sans-serif;
   color: blue;
+  text-decoration: underline;
 }
 .container {
  font-weight: bolder;
+ background-image: url('../images/bg.jpg');
 }
 .img {
   border: 4px red;
   padding: 4px
   margin: 6px;
   background-color: green;
-  float: left;
+}
+body {
+  color: black;
+}
+
+#quiz {
+  visibility: visible;
+}
+#after_submit {
+  visibility: hidden;
+}
+p {
+  color: yellow;
+  font-size: 20px;
+}
+#picture {
+  height: 400px;
 }

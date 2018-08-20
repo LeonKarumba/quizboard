@@ -14,39 +14,39 @@
 
     <h1>Quick Javascript Multiple Choice Questions</h1>
 
-    <form id= "Quiz">
+    <form id= "quiz" name="quiz">
 
     <p><strong> 1.Who invented Javascript?</strong></p>
-    <div>
      <input id ="radio" type = "radio" name ="questionOne" value = "Brendan Eich">Brendan Eich<br>
      <input id ="radio" type = "radio" name ="questionOne" value = "Mitchell Baker">Mitchell Baker<br>
      <input id ="radio" type = "radio" name ="questionOne" value = "Chris Beard">Chris Beard<br>
-   </div>
 
     <p><strong> 2.When was Javascript invented?</strong></p>
-    <div>
       <input id ="radio" type = "radio" name ="questionTwo" value ="1995">1995<br>
       <input id ="radio" type = "radio" name ="questionTwo" value ="1985">1985<br>
       <input id ="radio" type = "radio" name ="questionTwo" value ="1975">1975<br>
-    </div>
+
 
     <p><strong> 3.What is Javascript?</strong></p>
-    <div>
       <input id ="radio" type= "radio" name ="questionThree" value="A programming language">A programming language<br>
       <input id ="radio" type= "radio" name ="questionThree" value="An application">An application<br>
       <input id ="radio" type= "radio" name ="questionThree" value="An interesting game">An interesting game<br>
-    </div>
 
     <p><strong> 4.Which of the following is not an advantage of Javascript</strong></p>
-    <div>
       <input id ="radio" type ="radio" name ="questionFour" value ="It is fast">It is fast<br>
       <input id ="radio" type ="radio" name ="questionFour" value ="It is simple">It is simple<br>
       <input id ="radio" type ="radio" name ="questionFour" value ="It can be exploited for malicious processes">It can be exploited for malicious processes<br>
-   </div>
 
-    <button type="check" class="button">check</button>
 
+    <input id="button" type="button" value="Submit" onclick="check()" >
    </form>
 
+    <div id="after_submit">
+
+      <p id ="message"></p>
+      <p id ="number_correct"></p>
+      <img id = "picture">
+    </div>
+  </div>
   </body>
 </html>
